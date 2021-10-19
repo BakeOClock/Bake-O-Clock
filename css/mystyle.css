@@ -1,0 +1,378 @@
+                         /*--------------------------------------------------------------
+                            #   H   O   M   E    P   A   G   E
+                         --------------------------------------------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background: url("../images/pine2.jfif") top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    background-color: black;
+  }
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+#header {
+    background-color: #212431;
+    position: fixed;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 0 15px;
+    background: #040b14;
+}
+
+.mydiv{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+}
+
+.profile .dp{
+    border: 15px solid rgb(46, 45, 45);
+    border-radius: 50%;
+}
+
+.mylink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mylink > a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    padding-left: 18px;
+}
+
+.mylink a:hover{
+    cursor: pointer;
+    text-shadow: 2px 2px 2px rgb(235, 215, 215);
+}
+
+#list li a{
+    text-decoration:none;
+    margin-top: 3px;
+    text-align: center;
+}
+
+.mysocial a img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border:none;
+    margin: 12px 3px;
+}
+
+.mysocial a img:hover{
+    transform: translate(-30%, -50%);
+    transition: 1s;
+    width: 2.5em;
+    height: 2.5em;
+}
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+#navi ul  li{
+    list-style-type: none;
+    margin: 25px 0;
+}
+
+#navi ul li a{
+    text-decoration: none; 
+    margin-left: 0.5px;
+}
+
+#navi ul a:hover{
+    font-size: 1.5em;
+    box-shadow: 0 0 3px khaki;
+    padding: 10px;
+    transition: 1s;
+    color: rgb(241, 207, 10);
+}
+
+.last{
+    width: 909px;
+}
+
+.last h1{
+    margin-top: 200px;
+    margin-left: 400px;
+    font-weight: 2em;
+    font-size: 5em;
+    text-shadow: 2px -2px 15px rgb(51, 42, 42);
+    background-color: rgba(0, 0, 0, 0.74); 
+    color: rgb(255, 255, 255);
+    height: 50px;
+    margin-bottom: 40px;
+}
+
+.last p{
+    margin-top: 2px;
+    margin-left: 400px;
+    font-weight: 500px;
+    font-size: 2em;
+    color: rgba(255, 38, 0, 0.945);
+    text-decoration: underline;
+    text-shadow: 2px -2px 10px rgb(26, 24, 24);
+}
+
+.row h3{
+    margin-bottom: 20px;
+}
+
+
+.label{ 
+    width:5em; 
+}
+
+.label:after{ 
+    content:'Baker';
+ }
+
+.label:hover:after{       /* Change Text On Hovering*/
+     content:'Chef'; 
+     transition: 1.5s;
+     cursor:zoom-in;
+     text-decoration: underline;
+}
+
+/*--------------------------------------------------------------
+# Bottom Menu
+--------------------------------------------------------------*/
+
+.container{
+    width: 900px;
+    height: 60px;
+    margin-top:585px;
+    margin-left: 320px;
+    background-color: black;
+    color: rgb(206, 184, 151);
+    padding-bottom: 30px;
+}
+
+.container ul li{
+    list-style-type: decimal-leading-zero;
+    color: yellow;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+footer .bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(91, 89, 107, 0.767);
+    width: 970px;
+    margin-left: -40px;
+}
+
+footer .bottom:hover{
+    color: rgba(255, 255, 0, 0.781);
+    font-size: 2em;
+    transition: 1.5s;
+   /* transform: translateY(-20px); */
+}
+
+
+                         /*--------------------------------------------------------------
+                            #   S  E  R  V  I  C  E  S    P  A  G  E
+                         --------------------------------------------------------------*/
+                
+.blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 900px;
+    border-left: 5px solid crimson;
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgb(211, 46, 46);
+    text-align: justify;
+}
+                        
+.blog .title{
+    font-size: 2em;
+    color: rgb(151, 8, 92);
+    text-decoration: underline;
+    text-transform: uppercase;     
+    margin-left: 20px;   
+}
+                        
+.blogging{
+    border-top: 2px solid rgb(153, 146, 146);
+    padding-top: 15px;
+    margin-left: 20px;
+}
+
+#foot .bottom{
+    background-color: rgb(20, 23, 37);
+    color: white;
+    display: flex;
+    height: 70px;
+    width: 1081px;
+    margin-bottom: 20px;
+    /* background-image: url(../images/cupcake.jfif); */
+}
+
+
+                         /*--------------------------------------------------------------
+                            #    M    E    N    U        P  A  G  E
+                         --------------------------------------------------------------*/
+
+
+.gallery > marquee{
+    position: fixed;
+    margin-left: 248px;
+    width: 1500px;
+    height: 58px ;
+    border:4px solid rgb(188, 218, 18);
+    background-color: rgb(17, 17, 49);
+    color: white;
+}
+
+.midpg{
+    width: 700px ;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call .left img{
+    height: 300px;
+    width: 300px;
+    margin-left: 301px;
+    padding: 0;
+    margin-top: 0px;
+}
+
+.call .left{
+    display: flex;
+    flex-direction: row;
+} 
+
+.heading{
+    color: #ffe70a;
+    text-align:center;
+    font-size: 3.6em;
+    margin-top: 20px;
+    text-decoration:none;
+}
+
+.heading:hover{
+    border-bottom: 5px solid crimson;
+    transition: 2s;
+    background-color: rgba(255, 255, 255, 0.459);
+    color: rgb(19, 19, 177);
+    cursor: wait;
+}
+
+.middie .video{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+    padding: 7px;
+    margin-top:100px;
+    margin-bottom: 80px;
+    height: 60px;
+    text-align: center;   /* class=text-center in bootstrap */
+}
+
+.video video{
+    width: 350px; 
+    height: 140px;
+}
+}
+
+.video video:hover{
+    cursor: pointer;
+}
+
+.video p{
+    padding: 5px;
+    font-size: x-large;
+    color:rgb(56, 7, 41);
+    border-bottom-right-radius: 30%;
+}
+
+
+.video p:hover{
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    box-shadow: 5px 5px 10px rgb(255, 217, 0);
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+
+
+                         /*--------------------------------------------------------------
+                            #    G    A    L    L    E    R    Y        P  A  G  E
+                         --------------------------------------------------------------*/
+
+.midclass{
+    display: flex;
+    align-items: center;
+    margin: 30px 15px;
+  }
+  
+  .midclass .left img{
+    height: 250px;
+    width: 300px;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 20%;
+  }
+
+  .midclass .left img:hover{
+      transform: rotateY(20deg);
+      cursor: zoom-out;
+  }
+  
+  .midclass .right{
+    color: blanchedalmond;
+    margin: 15px;
+    padding: 10px;
+  }
+  
+  .right h3{
+    height: 20px;
+    width: 700px; 
+    margin: 30px;
+  }
+
+  .right h3:hover{
+      font-size: 2.5em;
+      transition: 0.5s;
+      transform: rotateY(30deg);
+      cursor: grab;
+  }
+  
+  .right p{
+    height: 120px;
+    width: 850px;
+  }
+
+  .right p:hover{
+      color: rgb(255, 217, 0);
+  }
+  
